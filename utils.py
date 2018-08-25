@@ -22,7 +22,7 @@ def signal(sinuses):
     ax.legend(loc='best')
     ax.grid(True)
     plt.show()
-    fig.savefig('outputs/signal.png')
+    fig.savefig('signal.png')
     return s, t
 
 def Fourier(s, t):
@@ -47,4 +47,4 @@ def Fourier(s, t):
     ax.bar(f[:N // 2], np.abs(fft)[:N // 2] * 1 / N, width=1.5)  # 1 / N is a normalization factor
     ax.grid(False)
     plt.show()
-    fig.savefig("outputs/Decomposed_signal.png")
+    fig.savefig("Decomposed_signal.png")
