@@ -51,7 +51,7 @@ conda install numpy MatplotLib
  <img src="https://github.com/fotisk07/Fourier-Transform/blob/master/images/signa2.png" width="425"/> <img src="https://github.com/fotisk07/Fourier-Transform/blob/master/images/Decomposed_signal2.png" width="425"/>
  
  
- ```python run -s 100 20 30 50```\
+ ```python run -s 50 100 250 600```\
  <img src="https://github.com/fotisk07/Fourier-Transform/blob/master/images/signal3.png" width="425"/> <img src="https://github.com/fotisk07/Fourier-Transform/blob/master/images/Decomposed_signal3.png" width="425"/>
  
 
