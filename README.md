@@ -37,14 +37,10 @@ conda install numpy MatplotLib
   * Plots the signal, then the decomposition and saves the figures
 
 ## Examples
- ```python run.py -s 10 20```
-![alt-text-1](Decomposed_signal1.png "Signal") ![alt-text-2](Signal.png "Decomposed signal")
+ ```python run.py -s 10 20``` \
+ <img src="https://github.com/fotisk07/Fourier-Transform/blob/master/images/signal1.png" width="425"/><img src="ihttps://github.com/fotisk07/Fourier-Transform/blob/master/images/Decomposed_signal1.png" width="425"/> 
+ 
 
-```python run.py -s 50 200```
-![alt-text-1](Decomposed_signal2.png "Signal") ![alt-text-2](Signa2.png "Decomposed signal")
-
-
-## Contributing
 
 Please read [CONTRIBUTING.md](https://github.com/fotisk07/Fourier-Transform/blob/master/CONTRIBUTING) for the process for submitting pull requests.
 
