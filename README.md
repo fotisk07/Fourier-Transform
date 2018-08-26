@@ -38,7 +38,7 @@ conda install numpy MatplotLib
 
 ## Examples
  ```python run.py -s 10 20``` \
- <img src="https://github.com/fotisk07/Fourier-Transform/blob/master/images/signal1.png" width="425"/><img src="ihttps://github.com/fotisk07/Fourier-Transform/blob/master/images/Decomposed_signal1.png" width="425"/> 
+ <img src="https://github.com/fotisk07/Fourier-Transform/blob/master/images/signal1.png" width="425"/> <img src="https://github.com/fotisk07/Fourier-Transform/blob/master/images/signal1.png" width="425"/>
  
 
 
