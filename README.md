@@ -1,6 +1,6 @@
 # Fourier Transform
 
-The Fourier transform (FT) decomposes a function of time (a signal) into the frequencies that make it up, in a way similar to how a musical chord can be expressed as the frequencies (or pitches) of its constituent notes. In this sort repository I will be implementing a general Fourier Transform algorithm capable of decomposing a function $f(x)=\sin(a*2*\pi) + \sin(b*2*\pi) + \ldots$ in a, b, ... .
+The Fourier transform (FT) decomposes a function of time (a signal) into the frequencies that make it up, in a way similar to how a musical chord can be expressed as the frequencies (or pitches) of its constituent notes. In this sort repository I will be implementing a general Fourier Transform algorithm capable of decomposing a function f(x) = sin(a*2*π) + sin(b*2*π).. for constants a,b,.. > 0
 
 Here is an image of the man who came up with this idea.\
 <img src="https://github.com/fotisk07/Fourier-Transform/blob/master/images/250px-Fourier2.jpg" height = "250"/>
