@@ -39,7 +39,7 @@ conda install numpy MatplotLib
   * Basic Usage : ```python run.py -s a b ... ```
   * Plots the signal, then the decomposition and saves the figures
   * Option:
-    * ```python run.py -s a b --n True
+    * ```python run.py -s a b --n True```
     * Uses my own implementation of the FFT
 
 ## Examples
