@@ -45,18 +45,11 @@ def Fourier(s, t, alg = "False"):
     '''
 
     #Perform the Fourier Transform
-<<<<<<< HEAD
     if alg == "True":
         fft = FFT(s)
     else:
         fft = np.fft.fft(s)
 
-||||||| merged common ancestors
-    fft = np.fft.fft(s)
-    fft = np.fft.fft(s)
-=======
-    fft = np.fft.fft(s)
->>>>>>> 052df911b6ac2efbbafd525dfdcc9d0a5a45b9ac
     T = t[1] - t[0]  # sample rate
     N = s.size
 
