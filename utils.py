@@ -2,6 +2,16 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def signal(sinuses):
+    ''' This function creates a function f(x) = sin(a*pi*2)+sin(b*p*2)+...
+     plots the graph of f(x) and saves it
+
+    Args:
+        sinuses(Float) : The list of constants a,b,c,...
+
+    Returns:
+        t (numpy array): X axis
+        s (numpy array): Y axis
+    '''
     # Create the singal as a sum of different sinuses
     t = np.linspace(0, 0.5, 800)
     s=0
@@ -26,6 +36,14 @@ def signal(sinuses):
     return s, t
 
 def Fourier(s, t, alg = "False"):
+    '''This function performs the FFT in the function f(x) defined in signal function, plots and saves the figure
+
+    Args:
+        t (numpy array): X axis
+        s (numpy array): Y axis
+        alg (string): Variable to determine whether to use my FFT or numpy's
+    '''
+
     #Perform the Fourier Transform
     if alg == "True":
         fft = FFT(s)
@@ -53,7 +71,14 @@ def Fourier(s, t, alg = "False"):
     fig.savefig("Decomposed_signal.png")
 
 def FFT(x):
-    """Compute the discrete Fourier Transform of the signal x"""
+    """Compute the discrete Fourier Transform of the signal x
+
+    Args:
+        x (numpy array): The function f(x)
+
+    Returns:
+        M (numpy array): The FFT
+    """
 
     x = np.asarray(x, dtype=float)
     N = x.shape[0]
