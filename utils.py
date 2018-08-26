@@ -25,10 +25,13 @@ def signal(sinuses):
     fig.savefig('signal.png')
     return s, t
 
-def Fourier(s, t):
+def Fourier(s, t, alg = "False"):
     #Perform the Fourier Transform
-    fft = np.fft.fft(s)
-    fft = np.fft.fft(s)
+    if alg == "True":
+        fft = FFT(s)
+    else:
+        fft = np.fft.fft(s)
+
     T = t[1] - t[0]  # sample rate
     N = s.size
 
@@ -48,3 +51,13 @@ def Fourier(s, t):
     ax.grid(False)
     plt.show()
     fig.savefig("Decomposed_signal.png")
+
+def FFT(x):
+    """Compute the discrete Fourier Transform of the signal x"""
+
+    x = np.asarray(x, dtype=float)
+    N = x.shape[0]
+    n = np.arange(N)
+    k = n.reshape((N, 1))
+    M = np.exp(-2j * np.pi * k * n / N)
+    return np.dot(M, x)
