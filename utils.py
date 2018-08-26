@@ -28,7 +28,6 @@ def signal(sinuses):
 def Fourier(s, t):
     #Perform the Fourier Transform
     fft = np.fft.fft(s)
-    fft = np.fft.fft(s)
     T = t[1] - t[0]  # sample rate
     N = s.size
 
