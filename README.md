@@ -24,7 +24,7 @@ pip install python -- upgrade
 ```
 Additional Packages that are required are: [Numpy](http://www.numpy.org/) and  [MatplotLib](https://matplotlib.org/)\
 
-You can donwload them using [pip](https://pypi.org/project/pip/)
+You can download them using [pip](https://pypi.org/project/pip/)
 ```
 pip install numpy MatplotLib
 ```
